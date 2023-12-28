@@ -5,7 +5,7 @@ import os
 import pandas as pd
 
 # Specify the path to your Excel file
-excel_file_path = '/Users/akramcareem/Desktop/Spotify_Dataset.xlsx'
+excel_file_path = Spotify_Dataset.xlsx
 
 # Check if the file exists
 if os.path.exists(excel_file_path):
@@ -30,16 +30,16 @@ for index, row in df.iterrows():
         print(f"Thank you, {user_name}! We will send the gift card to {address}. ")
     elif months_premium == 6 and hours >= 97*6:
         print(f"Wow {user_name}! You've been with us for 6 months now ")
-    elif months_premium == 9 and hours >= 97 * 6:
-        print(f"Wow {user_name}! You've been with us for 6 months now ")
-    elif months_premium == 12 and hours >= 97 * 6:
-        print(f"Wow {user_name}! You've been with us for 6 months now ")
-    elif months_premium == 18 and hours >= 97 * 6:
-        print(f"Wow {user_name}! You've been with us for 6 months now ")
-    elif months_premium == 21 and hours >= 97 * 6:
-        print(f"Wow {user_name}! You've been with us for 6 months now ")
-    elif months_premium >= 24 and hours >= 97 * 6:
-        print(f"Wow {user_name}! You've been with us for 6 months now ")
+    elif months_premium == 9 and hours >= 97 * 9:
+        print(f"Wow {user_name}! You've been with us for 9 months now ")
+    elif months_premium == 12 and hours >= 97 * 12:
+        print(f"Wow {user_name}! You've been with us for 12 months now ")
+    elif months_premium == 18 and hours >= 97 * 18:
+        print(f"Wow {user_name}! You've been with us for 18 months now ")
+    elif months_premium == 21 and hours >= 97 * 21:
+        print(f"Wow {user_name}! You've been with us for 21 months now ")
+    elif months_premium >= 24 and hours >= 97 * 24:
+        print(f"Wow {user_name}! You've been with us for 24 months now ")
 
 
 
